@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+body{
+    background-color:grey;
+    background-image: url(images/adobe\ girl\ pic);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    
+}
+    
+
+ .navbar{
+    display:flex;
+    align-items: center;
+    padding:15px;
+ }
+ nav{
+    flex:1;
+    text-align: right;
+ }
+ nav ul{
+    display: inline-block;
+    list-style-type: none;
+ }
+ nav ul li{
+    display: inline-block;
+    margin-right:30px;
+ }
+
+ a{
+    color:black ;
+    font-size: 18px;
+    font-weight: bold;
+   
+    text-decoration: none;
+   
+}
+.container{
+    background-color: red;
+   
+    
+}
+#hov:hover{
+    background-color:tomato;
+    padding:5px;
+    border-radius: 4px;
+}
+.head{
+    margin-left: 1000px;
+    margin-top: 100px;
+}
+.head1{
+   
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-line: solid;
+    text-decoration-thickness: 2px;
+    padding-bottom: 5pxpx;
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.head2{
+    margin-left:5px;
+    font-size: 25px;
+    margin-bottom:20px;
+}
+.btn{
+    display: inline-block;
+    background-color: red;
+   
+    padding:5px 20px;
+    border-radius:6px ;
+    margin-left: 10px;
+    margin-top: 5px;
+   
+
+}
+
+
+
+
+
+
+
+
+
+   
+

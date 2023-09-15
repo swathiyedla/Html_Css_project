@@ -1,0 +1,99 @@
+body{
+  margin:0;
+  padding:0;
+  font-family:Calibri, sans-serif;
+  background-image:url(images/login\ image.avif);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+ 
+}
+.loginbox{
+width:350px;
+height:430px;
+background-color:white;
+
+
+color:black;
+
+box-sizing: border-box;
+top:20%;
+
+position:absolute;
+
+margin: 55px;}
+
+.avathar{
+  width:100px;
+  height:100px;
+  border-radius: 70%;
+  position:absolute;
+  margin-top:-50px;
+  margin-left: 125px;
+}
+
+.loginbox input[type=email],input[type=password]{
+  border: none;
+  border-bottom: 2px solid red;
+  background:transparent;
+  outline: none;
+  width: 70%;
+}
+.head{
+  text-align: center;
+  font-size: 30px;
+  color:red;
+}
+.login{
+  margin: 10px;
+  color:black;
+}
+p{
+  font-weight: bold;
+  font-size: large;
+}
+
+
+
+
+.navbar{
+  display:flex;
+  align-items: center;
+  padding:5px;
+}
+nav{
+  flex:1;
+  text-align: right;
+}
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li{
+  display: inline-block;
+  margin-right:30px;
+}
+
+a{
+  color:black ;
+  font-size: 18px;
+  font-weight: bold;
+ 
+  text-decoration: none;
+ 
+}
+.container{
+  background-color: red;
+ 
+  
+}
+#hov:hover{
+  background-color:tomato;
+  padding:5px;
+  border-radius: 4px;
+}
+
+
+
+

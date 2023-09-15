@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Calibri, sans-serif;}
+.navbar{
+    display:flex;
+    align-items: center;
+    padding:5px;
+ }
+ nav{
+    flex:1;
+    text-align: right;
+ }
+ nav ul{
+    display: inline-block;
+    list-style-type: none;
+ }
+ nav ul li{
+    display: inline-block;
+    margin-right:30px;
+ }
+
+ a{
+    color:black ;
+    font-size: 18px;
+    font-weight: bold;
+   
+    text-decoration: none;
+   
+}
+.container{
+    background-color: red;
+   
+    
+}
+#hov:hover{
+    background-color:tomato;
+    padding:5px;
+    border-radius: 4px;
+}

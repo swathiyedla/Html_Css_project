@@ -1,0 +1,101 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Calibri, sans-serif;
+    background-image: url(images/hanger.jpg);
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+.registerbox{
+    width:350px;
+    height:430px;
+    background:black;
+    
+    color:red;
+   
+    box-sizing: border-box;
+    top:20%;
+    
+    position:absolute;
+    
+    margin: 55px;
+ 
+}
+.para{
+    text-align: center;
+    font-size: 30px;
+    color:red;
+}
+.register{
+    margin: 10px;
+    color:red;
+}
+
+input[type=text],input[type=Email],input[type=password]{
+    padding:6px;
+    border:1px solid black;
+    width: 60%;
+}
+
+
+input[type=submit]{
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-top: 3px;
+   padding-bottom: 3px;
+   margin:5px;
+   background-color: red;
+   border:black;
+   border-radius: 2px;
+   font-weight: bold;
+   font-size: medium;
+ 
+}
+
+p{
+    font-weight: bold;
+    font-size: large;
+}
+
+
+
+.navbar{
+    display:flex;
+    align-items: center;
+    padding:5px;
+ }
+ nav{
+    flex:1;
+    text-align: right;
+ }
+ nav ul{
+    display: inline-block;
+    list-style-type: none;
+ }
+ nav ul li{
+    display: inline-block;
+    margin-right:30px;
+ }
+
+ a{
+    color:black ;
+    font-size: 18px;
+    font-weight: bold;
+   
+    text-decoration: none;
+   
+}
+.container{
+    background-color: red;
+   
+    
+}
+#hov:hover{
+    background-color:tomato;
+    padding:5px;
+    border-radius: 4px;
+}
+
+  
