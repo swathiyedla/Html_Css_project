@@ -13,10 +13,7 @@ body{
 width:350px;
 height:430px;
 background-color:white;
-
-
 color:black;
-
 box-sizing: border-box;
 top:20%;
 
@@ -30,7 +27,7 @@ margin: 55px;}
   border-radius: 70%;
   position:absolute;
   margin-top:-50px;
-  margin-left: 125px;
+  margin-left: 125 px;
 }
 
 .loginbox input[type=email],input[type=password]{
@@ -53,10 +50,6 @@ p{
   font-weight: bold;
   font-size: large;
 }
-
-
-
-
 .navbar{
   display:flex;
   align-items: center;
@@ -86,7 +79,6 @@ a{
 .container{
   background-color: red;
  
-  
 }
 #hov:hover{
   background-color:tomato;
